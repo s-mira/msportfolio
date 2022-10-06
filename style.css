@@ -14,9 +14,9 @@ body {
     --dark-primary: #FFFFE3;
     --dark-link: #A9FE75;
   
-    --light-background: #d5dbcc;
+    --light-background: #E6EBDF;
     --light-primary: #253a52;
-    --light-link: #2491d1;
+    --light-link: #548AA5;
   
     --background: var(--light-background);
     --primary: var(--light-primary);
