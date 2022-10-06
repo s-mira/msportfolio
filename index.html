@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Basic Web Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sora:wght@700&family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toggle-switch.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Miranda Stewart</h1>
+        <ul>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <label class="toggle-switch">
+          Dark Mode
+          <input type="checkbox" id="dark-mode-toggle">
+          <div class="toggle-switch-border">
+            <div class="toggle-switch-dot"></div>
+          </div>
+        </label>
+      </div>
+    </header>
+  <section class="bio">
+    <img class='profile-image' src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png'/>
+    <div>
+      <h2>Hello! I'm Miranda Stewart.</h2>
+      <p>I'm in my senior year at the University of Pennsylvania, where I study natural sciences. Over the past year, I've utilized online resources to learn Python, SQL, HTML/CSS/JS, and develop iOS apps using Swift in my free time. This page is currently in progress, and I look forward refining my skills for the world to see.</p>
+      <a class='btn' href="https://github.com/s-mira" target="blank">See my work</a>
+    </div>
+  </section>
+  <section>
+    <h2>Recent Work</h2>
+    <article>
+      <div>
+      <h3>Quiz App</h3>
+      <p>Created an iOS app "Movie Quiz App" using SwiftUI.</p>
+      <strong>Sept 2022</strong>
+      <ul>
+        <li>Constructed a view model that mediates communication between the view and the model of the app.</li>
+        <li>Included navigation to present different views to the user.</li>
+        <li>Built a question model structure that visually notifies the user if the answer they selected was correct or incorrect.</li>
+        <li>Incorporated percentage and letter grades, number of correct and incorrect answers, quiz duration, and re-take quiz button onto final results screen.</li>
+      </ul>
+      <a href="https://github.com/s-mira/QuizApp" target='blank'>GitHub Repo</a>
+      </div>
+      <img class='article-image' src='https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980_1280.jpg'/>
+    </article>
+  </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#">
+            LinkedIn
+            <span class="link-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            CV
+            <span class="link-icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            GitHub
+            <span class="link-icon">
+              <i class="fa-brands fa-github"> </i>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="copywright">© 2022 Miranda Stewart</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
