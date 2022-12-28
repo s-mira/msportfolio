@@ -109,7 +109,7 @@ text-align: center;
 .card {
     color: rgb(200, 206, 212);
     font-family: 'Times New Roman';
-    background-image: url(/images/weatherapp2.png);
+    background-image: url('https://s-mira.github.io/msportfolio/images/weatherapp2.png');
     background-size: cover;
     padding: 12rem 0 0;
     max-width: 34ch;
@@ -217,7 +217,7 @@ text-align: center;
 .card2 {
     color: rgb(200, 200, 200);
     font-family: 'Times New Roman';
-    background-image: url(/images/quiz.png);
+    background-image: url('https://s-mira.github.io/msportfolio/images/quiz.png');
     background-size: cover;
     padding: 14rem 0 0;
     max-width: 34ch;
