@@ -86,9 +86,10 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     flex-shrink: 1;
     height: auto;
+    flex-wrap: wrap;
 }
 
 .weather {
@@ -98,20 +99,19 @@ body {
     margin-bottom: 3rem;
     border: none;
     display: inline-block;
-    padding: 0 40px 0 0;
 }
 
 .weather h1 {
-font-size: 28px;
+font-size: 20px;
 text-align: center;
 }
 
 .card {
-    color: rgb(200, 206, 212);
+  color: rgb(200, 200, 200);
     font-family: 'Times New Roman';
     background-image: url('https://s-mira.github.io/msportfolio/images/weatherapp2.png');
     background-size: cover;
-    padding: 12rem 0 0;
+    padding: 15rem 0 0;
     max-width: 34ch;
     border-radius: 1.8rem;
     overflow: hidden;
@@ -140,22 +140,17 @@ text-align: center;
 .card-title{
     position: relative;
     width: max-content;
-    left: -.2rem;
-    bottom: -.09rem;
-    font-size: 28px;
+    left: 3.2rem;
+    bottom: -1rem;
+    font-size: 14px;
 }
 
 .card-title::after{
     content: "";
     position: absolute;
-    height: 4px;
-    left: calc(var(--padding) * -1);
-    bottom: -2px;
-    width: calc(100% + var(--padding));
-    background:rgb(36, 53, 67);
     transform-origin: left;
     transition: transform 600ms ease;
-    border: none;
+    color: transparent;
 }
 
 .card:hover .card-title::after,
@@ -206,11 +201,10 @@ text-align: center;
     margin-bottom: 3rem;
     border: none;
     display: inline-block;
-    padding: 0 0 0 40px;
 }
 
 .movies h1 {
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     }
 
@@ -219,7 +213,7 @@ text-align: center;
     font-family: 'Times New Roman';
     background-image: url('https://s-mira.github.io/msportfolio/images/quiz.png');
     background-size: cover;
-    padding: 14rem 0 0;
+    padding: 17rem 0 0;
     max-width: 34ch;
     border-radius: 1.8rem;
     overflow: hidden;
@@ -248,19 +242,14 @@ text-align: center;
 .card2-title{
     position: relative;
     width: max-content;
-    left: 2rem;
-    bottom: .3rem;
-    font-size: 28px;
+    left: 3.5rem;
+    bottom: -0.4rem;
+    font-size: 14px;
 }
 
 .card2-title::after{
     content: "";
     position: absolute;
-    height: 4px;
-    left: calc(var(--padding) * -1);
-    bottom: -2px;
-    width: calc(100% + var(--padding));
-    background:rgb(198, 194, 172);
     transform-origin: left;
     transition: transform 600ms ease;
 }
